@@ -1,19 +1,17 @@
-# Backend Oracle API
+# API REST con Oracle
 
-REST API built with **Node.js**, **Express** and **Oracle Database**.
+> **Tipo de proyecto:** Proyecto académico / práctica técnica
 
-## Overview
+Proyecto desarrollado para practicar la integración entre **Node.js**, **Express** y **Oracle Database**, aplicando una estructura separada por rutas, controladores y modelos.
 
-This project demonstrates a simple backend architecture organized into routes, controllers and models, with OracleDB connectivity.
-
-## Tech Stack
+## Tecnologías
 
 - Node.js
 - Express 5
 - Oracle Database
 - node-oracledb
 
-## Project Structure
+## Estructura
 
 ```text
 controllers/
@@ -23,36 +21,29 @@ db.js
 server.js
 ```
 
-## Getting Started
-
-1. Clone the repository.
-2. Install dependencies:
+## Ejecución
 
 ```bash
 npm install
-```
-
-3. Configure your Oracle database connection in the appropriate local environment/configuration.
-4. Start the API:
-
-```bash
 node server.js
 ```
 
-The server runs on port `3000` by default.
+El servidor utiliza el puerto `3000` por defecto.
 
 ## API
 
-The current application exposes user-related routes under:
+Actualmente incluye rutas relacionadas con usuarios bajo:
 
 ```text
 /usuarios
 ```
 
-## Notes
+## Nota
 
-Database credentials should never be committed to the repository. Use environment variables for local and production configuration.
+Este repositorio fue realizado con fines de aprendizaje y no corresponde a un sistema utilizado en producción.
+
+Las credenciales de base de datos deben configurarse mediante variables de entorno y nunca incluirse directamente en el repositorio.
 
 ---
 
-**Author:** Miguel Martínez
+**Autor:** Miguel Martínez
